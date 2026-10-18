@@ -1,0 +1,20 @@
+{
+  "name": "@ubik/module-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Módulos y builds para productos Ubik (sin planes ni precios)",
+  "exports": {
+    ".": "./src/index.js",
+    "./browser": "./src/browser.js"
+  },
+  "bin": {
+    "module-kit": "./bin/module-kit.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
